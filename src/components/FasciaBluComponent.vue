@@ -9,5 +9,5 @@
 </script>
 
 <style lang="scss">
-
+@use '../assets/styles/partials/variables' as *;
 </style>

@@ -29,7 +29,7 @@ export default {
                 {
                     text: "Comics",
                     url: "#",
-                    current: true,
+                    current: false,
                 },
                 {
                     text: "Movies",
@@ -120,17 +120,13 @@ ul {
 
 
         a {
-
-            line-height: 200px;
+            line-height: 195px;
             font-size: 14px;
             margin-right: 10px;
             text-transform: uppercase;
             font-weight: bold;
             color: black;
             text-decoration: none;
-
-
-
         }
 
     }

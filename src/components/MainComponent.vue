@@ -1,7 +1,7 @@
 <template>
     <div class="bg-main">
 
-        <div class="wrapper-main">
+        <div class="wrapper-main container">
             <p> &rarr; Content Goes Here! &larr; </p>
         </div>
 
@@ -15,11 +15,13 @@
 <style lang="scss">
 @use '../assets/styles/partials/variables' as *;
 
+
+
 .wrapper-main {
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    width: 80%;
+
     height: 200px;
     align-content: center;
     align-items: center;

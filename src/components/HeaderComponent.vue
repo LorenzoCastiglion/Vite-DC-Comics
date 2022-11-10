@@ -1,16 +1,18 @@
 <template>
-    <div class="wrapper">
-        <a href="#">
-            <img src="../assets/img/img/dc-logo.png" alt="">
-        </a>
-        <nav>
-            <ul>
-                <li v-for="(link, index) in NavItems" :key="index">
-                    <a href="link.url" :class="{ 'active': link.curent }">{{ link.text }}</a>
-                </li>
-            </ul>
-        </nav>
-    </div>
+    <header>
+        <div class="wrapper container">
+            <a href="#">
+                <img src="../assets/img/img/dc-logo.png" alt="">
+            </a>
+            <nav>
+                <ul>
+                    <li v-for="(link, index) in NavItems" :key="index">
+                        <a href="link.url" :class="{ 'active': link.curent }">{{ link.text }}</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 </template>
 
 <script>
@@ -83,12 +85,20 @@ export default {
 <style lang="scss">
 @use '../assets/styles/partials/variables' as *;
 
+header {
+    height: 200px;
+}
+
+.container {
+    width: 80%;
+}
+
 .wrapper {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    width: 80%;
-    height: 200px;
+
+
     align-content: center;
     align-items: center;
 }

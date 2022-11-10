@@ -87,16 +87,18 @@ export default {
 
 header {
     height: 200px;
+
 }
 
 .container {
     width: 80%;
+    margin: 0 auto;
 }
 
 .wrapper {
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
+
 
 
     align-content: center;

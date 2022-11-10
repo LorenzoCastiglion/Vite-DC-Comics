@@ -1,6 +1,6 @@
 <template>
     <div>
-        sono header
+        sono fascia blu
     </div>
 </template>
 
@@ -9,5 +9,5 @@
 </script>
 
 <style lang="scss">
-@use '../assets/styles/partials/variables' as *;
+
 </style>

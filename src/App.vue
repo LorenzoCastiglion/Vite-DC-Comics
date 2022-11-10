@@ -1,6 +1,7 @@
 <template>
   <HeaderComponent />
   <MainComponent />
+  <FasciaBluComponent />
   <FooterComponent />
 </template>
 
@@ -8,19 +9,21 @@
 import HeaderComponent from './components/HeaderComponent.vue';
 import FooterComponent from './components/FooterComponent.vue';
 import MainComponent from './components/MainComponent.vue';
+import FasciaBluComponent from './components/FasciaBluComponent.vue';
 
-export default{
+export default {
 
-  data(){
+  data() {
     return
   },
 
-  components:{
+  components: {
     HeaderComponent,
     FooterComponent,
     MainComponent,
+    FasciaBluComponent
   }
-  
+
 
 }
 

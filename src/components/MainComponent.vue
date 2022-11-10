@@ -1,6 +1,6 @@
 <template>
     <div>
-
+        sono main
     </div>
 </template>
 

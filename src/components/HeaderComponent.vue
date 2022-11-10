@@ -2,7 +2,7 @@
     <header>
         <div class="wrapper container">
             <a href="#">
-                <img src="../assets/img/dc-logo.png" alt="">
+                <img class="logo-dc" src="../assets/img/dc-logo.png" alt="">
             </a>
             <nav>
                 <ul class="ul-header">
@@ -89,6 +89,8 @@ header {
     height: 200px;
 
 }
+
+
 
 .container {
     width: 80%;

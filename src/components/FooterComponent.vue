@@ -151,6 +151,12 @@ li {
 }
 
 button {
+
+    &:hover {
+        filter: invert(1);
+    }
+
+
     font-size: 20px;
     border: 2px solid $DcBlue;
     background-color: transparent;
@@ -168,6 +174,11 @@ button {
     align-content: center;
 
     a {
+
+        &:hover {
+            filter: brightness(0) invert(1);
+        }
+
         padding: 0 5px;
     }
 

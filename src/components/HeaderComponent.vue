@@ -2,10 +2,10 @@
     <header>
         <div class="wrapper container">
             <a href="#">
-                <img src="../assets/img/img/dc-logo.png" alt="">
+                <img src="../assets/img/dc-logo.png" alt="">
             </a>
             <nav>
-                <ul>
+                <ul class="ul-header">
                     <li v-for="(link, index) in NavItems" :key="index">
                         <a href="link.url" :class="{ 'active': link.curent }">{{ link.text }}</a>
                     </li>
@@ -109,7 +109,7 @@ nav {
     height: 100%;
 }
 
-ul {
+.ul-header {
     list-style: none;
     display: flex;
 

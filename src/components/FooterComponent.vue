@@ -14,9 +14,9 @@
             </div>
         </div>
         <div class="footer-bg-btm">
-            <div class="container ">
+            <div class="container foot-flex">
                 <button>SIGN-UP NOW!</button>
-                <div>
+                <div class="foot-flex">
                     <h2>FOLLOW US</h2>
                     <a href="#"><img src="../assets/img/img/footer-facebook.png" alt=""></a>
                     <a href="#"><img src="../assets/img/img/footer-twitter.png" alt=""></a>
@@ -54,6 +54,9 @@ footer {
 .footer-bg-btm {
     height: 100px;
     background-color: $DcDarkGrey;
+    display: flex;
+    align-items: center;
+    align-content: center;
 }
 
 .top {
@@ -77,5 +80,30 @@ h3 {
 
 li {
     color: $DcGrey;
+}
+
+button {
+    font-size: 20px;
+    border: 2px solid $DcBlue;
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+}
+
+.foot-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+
+    a {
+        padding: 0 5px;
+    }
+
+    h2 {
+        font-size: 20px;
+        color: $DcBlue;
+        padding-right: 5px;
+    }
 }
 </style>

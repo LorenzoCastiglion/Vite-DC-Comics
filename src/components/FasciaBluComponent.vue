@@ -73,8 +73,8 @@ export default {
         }
     }
 
-    .icon .img-icon:nth-child(4) {
-        width: 20px;
+    .icon:nth-child(4) .img-icon {
+        width: 25px;
     }
 }
 </style>

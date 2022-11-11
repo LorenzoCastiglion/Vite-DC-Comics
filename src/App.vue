@@ -1,5 +1,6 @@
 <template>
   <HeaderComponent />
+  <JumbotronComponent />
   <MainComponent />
   <FasciaBluComponent />
   <FooterComponent />
@@ -10,6 +11,7 @@ import HeaderComponent from './components/HeaderComponent.vue';
 import FooterComponent from './components/FooterComponent.vue';
 import MainComponent from './components/MainComponent.vue';
 import FasciaBluComponent from './components/FasciaBluComponent.vue';
+import JumbotronComponent from './components/JumbotronComponent.vue';
 
 export default {
 
@@ -21,7 +23,8 @@ export default {
     HeaderComponent,
     FooterComponent,
     MainComponent,
-    FasciaBluComponent
+    FasciaBluComponent,
+    JumbotronComponent
   }
 
 

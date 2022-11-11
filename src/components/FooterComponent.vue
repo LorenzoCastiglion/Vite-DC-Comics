@@ -153,7 +153,7 @@ li {
 button {
 
     &:hover {
-        filter: invert(1);
+        filter: grayscale(1);
     }
 
 
